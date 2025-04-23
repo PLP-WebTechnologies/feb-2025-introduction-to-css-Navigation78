@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEase - Contact</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to ShopEase</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit-form.php" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="product-showcase">
+            <h2>Here are some of our products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://images.pexels.com/photos/934673/pexels-photo-934673.jpeg" alt="Stylish backpack with leather straps" class="product-img" />
+                    <h3 class="product-name">Stylish Backpack</h3>
+                    <p class="price">$49.99</p>
+                </div>
+
+                <div class="product">
+                    <img src="https://images.pexels.com/photos/5470891/pexels-photo-5470891.jpeg" alt="Comfortable white sneakers" class="product-img" />
+                    <h3 class="product-name">Comfort Sneakers</h3>
+                    <p class="price">$89.99</p>
+                </div>
+
+                <div class="product">
+                    <img src="https://images.pexels.com/photos/2861929/pexels-photo-2861929.jpeg" alt="Modern smartwatch with black strap" class="product-img" />
+                    <h3 class="product-name">Smartwatch X2</h3>
+                    <p class="price">$129.99</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">© 2025 ShopEase Inc.</p>
+    </footer>
+</body>
+</html>
